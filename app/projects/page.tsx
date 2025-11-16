@@ -85,6 +85,17 @@ export default function ProjectsPage() {
       liveUrl: "https://bill-design.vercel.app/",
       githubUrl: "https://github.com/Harshalmundane/BILL_DESIGN-",
     },
+      {
+      id: 8,
+      title: "Task Management System",
+      description:
+        "A full-stack MERN Task Management Application featuring role-based authentication, task creation, priority management, deadlines, and progress tracking. Includes dashboards for admins and users with secure JWT authentication.",
+      image: "/taskManagement.png",
+      tech: ["ReactJS", "NodeJS", "Express", "MongoDB"],
+      category: "Full Stack",
+      liveUrl: "task-mangement-frontend-82wk.vercel.app",
+      githubUrl: "https://github.com/Harshalmundane/TaskMangement_frontend",
+    },
   ];
 
   return (
