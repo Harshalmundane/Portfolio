@@ -93,7 +93,7 @@ export default function ProjectsPage() {
       image: "/taskManagement.png",
       tech: ["ReactJS", "NodeJS", "Express", "MongoDB"],
       category: "Full Stack",
-      liveUrl: "task-mangement-frontend-82wk.vercel.app",
+      liveUrl: "http://task-mangement-frontend-82wk.vercel.app",
       githubUrl: "https://github.com/Harshalmundane/TaskMangement_frontend",
     },
   ];
