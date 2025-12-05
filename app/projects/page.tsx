@@ -70,7 +70,7 @@ export default function ProjectsPage() {
       image: "./InstituteProject.png",
       tech: ["ReactJS", "NodeJS", "Express", "MongoDB", "Redux Toolkit"],
       category: "Full Stack",
-      liveUrl: "https://institute-frontend-e8oh.vercel.app/",
+      liveUrl: "https://institute-frontend-t1z5.vercel.app/",
       githubUrl: "https://github.com/Harshalmundane/Institute_Frontend",
     },
 
