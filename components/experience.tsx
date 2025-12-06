@@ -5,8 +5,21 @@ import { Briefcase } from "lucide-react"
 export default function Experience() {
   const experiences = [
     {
+      title: "Associate Software Developer",
+      company: "Technobase IT Solutions Pvt. Ltd.",
+      period: "Oct 2025 – Present",
+      location: "Nagpur, Maharashtra",
+      description: [
+        "Working on the Indigrow Stock Market platform, developing and maintaining automated trading (Algo) strategies.",
+        "Implemented strategy-based order execution where trades are automatically placed in customer trading accounts.",
+        "Integrated webhook-based signal handling to trigger real-time order execution for multiple trading strategies.",
+        "Developed and managed both Admin and Customer-side functionalities for strategy configuration, monitoring, and execution.",
+        "Collaborated on improving system reliability, execution accuracy, and scalability for live trading environments.",
+      ],
+    },
+    {
       title: "Full Stack Developer Intern",
-      company: "Fireblaze Ai School",
+      company: "Fireblaze AI School",
       period: "May 2025 – Aug 2025",
       location: "Nagpur, Maharashtra",
       description: [
@@ -47,15 +60,20 @@ export default function Experience() {
                     <Briefcase size={24} className="text-primary" />
                   </div>
                 </div>
+
                 <div className="flex-1">
                   <h3 className="text-xl font-bold">{exp.title}</h3>
                   <p className="text-primary font-semibold">{exp.company}</p>
                   <p className="text-sm text-muted-foreground mb-4">
                     {exp.period} • {exp.location}
                   </p>
+
                   <ul className="space-y-2">
                     {exp.description.map((item, i) => (
-                      <li key={i} className="text-muted-foreground flex items-start gap-2">
+                      <li
+                        key={i}
+                        className="text-muted-foreground flex items-start gap-2"
+                      >
                         <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0" />
                         <span>{item}</span>
                       </li>
