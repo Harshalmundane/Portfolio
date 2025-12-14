@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { Briefcase } from "lucide-react"
+import { Briefcase } from "lucide-react";
 
 export default function Experience() {
   const experiences = [
@@ -11,9 +11,11 @@ export default function Experience() {
       location: "Nagpur, Maharashtra",
       description: [
         "Working on the Indigrow Stock Market platform, developing and maintaining automated trading (Algo) strategies.",
+        "Built and maintained both frontend and backend modules using Next.js for the UI and Node.js for server-side logic.",
         "Implemented strategy-based order execution where trades are automatically placed in customer trading accounts.",
         "Integrated webhook-based signal handling to trigger real-time order execution for multiple trading strategies.",
-        "Developed and managed both Admin and Customer-side functionalities for strategy configuration, monitoring, and execution.",
+        "Designed and managed MySQL database schemas for orders, strategies, users, and execution logs.",
+        "Developed Admin and Customer-side functionalities for strategy configuration, monitoring, and execution.",
         "Collaborated on improving system reliability, execution accuracy, and scalability for live trading environments.",
       ],
     },
@@ -41,7 +43,7 @@ export default function Experience() {
         "Built responsive dashboards with PHP & MySQL, delivering real-time insights and improving business accuracy by 35%.",
       ],
     },
-  ]
+  ];
 
   return (
     <section id="experience" className="py-20 px-4 sm:px-6 lg:px-8">
@@ -86,5 +88,5 @@ export default function Experience() {
         </div>
       </div>
     </section>
-  )
+  );
 }
