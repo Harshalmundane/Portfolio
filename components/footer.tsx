@@ -52,7 +52,7 @@ export default function Footer() {
                 <Github size={20} className="text-primary" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://github.com/Harshalmundane"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-card hover:bg-primary/20 rounded-lg transition-colors"
