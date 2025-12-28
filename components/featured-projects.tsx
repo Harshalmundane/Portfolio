@@ -11,20 +11,21 @@ export default function FeaturedProjects() {
       title: "MyShop – E-commerce Web Application",
       description:
         "A full-stack e-commerce platform with secure role-based authentication, enabling product browsing, cart management, and order tracking with admin control for stock and delivery workflow.",
-     image: "/My shop.png",
+     image: "/MyShop Ecommerce.png",
       tech: ["NextJS", "Node.js", "Express", "MongoDB"],
-     liveUrl: "https://ecommerce-3o2b.vercel.app/",
-      githubUrl: "https://github.com/Harshalmundane/Ecommerce",
+     liveUrl: "https://my-shop-ecommerce-seven.vercel.app/",
+      githubUrl: "https://github.com/Harshalmundane/MyShop-Ecommerce",
     },
     {
-      id: 2,
-      title: "Job Portal",
+      id: 8,
+      title: "Task Management System",
       description:
-        "A full-stack MERN Job Portal with secure role-based authentication, allowing job seekers to apply and employers to post, manage, and track applications with real-time status updates.",
-      image: "/job-portal.jpg",
-      tech: ["ReactJS", "NodeJS", "MongoDB", "Express", "JWT"],
-      liveUrl: "#",
-      githubUrl: "#",
+        "A full-stack MERN Task Management Application featuring role-based authentication, task creation, priority management, deadlines, and progress tracking. Includes dashboards for admins and users with secure JWT authentication.",
+      image: "/taskManagement.png",
+      tech: ["ReactJS", "NodeJS", "Express", "MongoDB"],
+      category: "Full Stack",
+      liveUrl: "http://task-mangement-frontend-82wk.vercel.app",
+      githubUrl: "https://github.com/Harshalmundane/TaskMangement_frontend",
     },
   ];
 

@@ -13,10 +13,10 @@ export default function ProjectsPage() {
       title: "MyShop – E-commerce Web Application",
       description:
         "A full-stack e-commerce platform with secure role-based authentication, enabling product browsing, cart management, and order tracking with admin control for stock and delivery workflow.",
-      image: "/My shop.png",
+      image: "/MyShop Ecommerce.png",
       tech: ["NextJS", "Node.js", "Express", "MongoDB"],
-      liveUrl: "https://ecommerce-3o2b.vercel.app/",
-      githubUrl: "https://github.com/Harshalmundane/Ecommerce",
+      liveUrl: "https://my-shop-ecommerce-seven.vercel.app/",
+      githubUrl: "https://github.com/Harshalmundane/MyShop-Ecommerce",
     },
     {
       id: 2,
