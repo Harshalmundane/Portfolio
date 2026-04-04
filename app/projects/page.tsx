@@ -44,12 +44,12 @@ export default function ProjectsPage() {
       id: 4,
       title: "Event Management",
       description:
-        "Interactive chatbot interface with real-time messaging and AI integration.",
-      image: "/chatbot-interface.jpg",
+        "Eventora is a full-stack MERN app where users can browse, register, and pay for events natively, while admins manage events and bookings through a dedicated dashboard without third-party tools.",
+      image: "/image.png",
       tech: ["React", "Node.js", "Express.js", "MongoDB"],
       category: "Frontend",
-      liveUrl: "#",
-      githubUrl: "#",
+      liveUrl: "https://event-management-frontend-h7in.vercel.app/",
+      githubUrl: "https://github.com/Harshalmundane/TaskMangement_frontend",
     },
     {
       id: 5,

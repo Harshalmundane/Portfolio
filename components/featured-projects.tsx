@@ -7,14 +7,15 @@ import { Button } from "@/components/ui/button";
 export default function FeaturedProjects() {
   const projects = [
     {
-      id: 1,
-      title: "MyShop – E-commerce Web Application",
+      id: 4,
+      title: "Event Management",
       description:
-        "A full-stack e-commerce platform with secure role-based authentication, enabling product browsing, cart management, and order tracking with admin control for stock and delivery workflow.",
-     image: "/MyShop Ecommerce.png",
-      tech: ["NextJS", "Node.js", "Express", "MongoDB"],
-     liveUrl: "https://my-shop-ecommerce-seven.vercel.app/",
-      githubUrl: "https://github.com/Harshalmundane/MyShop-Ecommerce",
+        "Eventora is a full-stack MERN app where users can browse, register, and pay for events natively, while admins manage events and bookings through a dedicated dashboard without third-party tools.",
+      image: "/image.png",
+      tech: ["React", "Node.js", "Express.js", "MongoDB"],
+      category: "Frontend",
+      liveUrl: "https://event-management-frontend-h7in.vercel.app/",
+      githubUrl: "https://github.com/Harshalmundane/TaskMangement_frontend",
     },
     {
       id: 8,
